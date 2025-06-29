@@ -58,17 +58,35 @@ Estilo adaptado a lectores de pantalla
 📁 Estructura del código
 
 src/
+
 ├── components/
-│   └── BotonesModoOscuroVolver.jsx
+
+│
+└── BotonesModoOscuroVolver.jsx
+
 ├── formularios/
-│   ├── RegistroAcompanantes.jsx
-│   ├── RegistroDiscapacitados.jsx
-│   └── RegistroConductores.jsx
+
+│
+├── RegistroAcompanantes.jsx
+
+│
+├── RegistroDiscapacitados.jsx
+
+│
+└── RegistroConductores.jsx
+
 ├── styles/
-│   ├── light.css
-│   └── dark.css
+
+│
+├── light.css
+
+│
+└── dark.css
+
 ├── utils/
-│   └── validaciones.js
+
+│
+└── validaciones.js
 
 Licencia
 MIT © NyantaCat
