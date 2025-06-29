@@ -1,0 +1,71 @@
+/* 🌙 Modo Oscuro - Fondo general */
+body.dark .home-container {
+  background-color: #121212;
+}
+
+/* 🌙 Barra de navegación */
+body.dark .navbar {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-bottom: 1px solid #333;
+}
+
+body.dark .app-title {
+  color: #90caf9;
+}
+
+/* 🌙 Botones de navegación y acción */
+body.dark .nav-button,
+body.dark .btn-card {
+  background-color: #3f51b5;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  transition: background-color 0.3s, transform 0.2s ease;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+body.dark .nav-button:hover,
+body.dark .btn-card:hover {
+  background-color: #303f9f;
+  transform: scale(1.03);
+}
+
+body.dark .nav-button:focus,
+body.dark .btn-card:focus {
+  outline: 3px solid #90caf9;
+  outline-offset: 2px;
+}
+
+/* 🌙 Tarjetas */
+body.dark .card {
+  background-color: #1f1f1f;
+  border: 1px solid #555;
+  box-shadow: 0 0 10px rgba(100, 181, 246, 0.2);
+}
+
+body.dark .card h2 {
+  color: #bbdefb;
+}
+
+body.dark .card p {
+  color: #e0e0e0;
+}
+
+/* 🌙 Imagen dentro de la tarjeta (sin cambios específicos) */
+body.dark .card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* 🌙 Accesibilidad general */
+body.dark .card-link:focus-visible,
+body.dark .nav-button:focus-visible {
+  outline: 3px solid #64b5f6;
+  outline-offset: 2px;
+}

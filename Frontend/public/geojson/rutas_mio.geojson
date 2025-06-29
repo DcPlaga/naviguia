@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.522,
+          3.451
+        ]
+      },
+      "properties": {
+        "name": "Estación Cali Centro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.529,
+          3.375
+        ]
+      },
+      "properties": {
+        "name": "Estación Universidades"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.522,
+            3.451
+          ],
+          [
+            -76.529,
+            3.375
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ruta Simulada MIO"
+      }
+    }
+  ]
+}

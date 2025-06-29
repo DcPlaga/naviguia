@@ -1,0 +1,99 @@
+/* 🌙 Modo Oscuro */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark .registro-container {
+  background: #1e1e1e;
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.3);
+}
+
+.dark h2 {
+  color: #cce6ff;
+}
+
+.dark label {
+  color: #bbdefb;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #2c2c2c;
+  border: 1px solid #64b5f6;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus,
+.dark button:focus:not(.btn-iniciar-sesion) {
+  outline: 3px solid #64b5f6;
+  background-color: #1e1e1e;
+}
+
+.dark button {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.dark button:hover {
+  background-color: #303f9f;
+}
+
+.dark .toggle-btn.osc {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.6rem 1.2rem;
+  background-color: #3f51b5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+body.dark .mensaje-exito {
+  margin-top: 1rem;
+  color: #90ee90;
+  font-weight: bold;
+}
+
+.dark .correo-registrado {
+  color: #f0f0f0;
+}
+
+.dark .texto-cuenta {
+  color: #aaa;
+}
+
+.dark .btn-iniciar-sesion {
+  background-color: transparent; /* Fondo transparente siempre */
+  color: #8ab4f8;                /* Color azul claro */
+  border: none;                  /* Sin borde */
+  cursor: pointer;
+}
+
+.dark .btn-iniciar-sesion:hover,
+.dark .btn-iniciar-sesion:focus {
+  background-color: transparent; /* Que no cambie el fondo al hover o focus */
+  color: #5e97f6;                 /* Color un poco más oscuro para hover */
+  outline: none;                  /* Sin outline en focus */
+}
+.dark .btn-volver-secundario,
+.dark .btn-tema-secundario {
+  background-color: #3f51b5;
+  border: 2px solid #3f51b5;
+  color: white;
+  outline: none;
+  box-shadow: none;
+  width: 127px;
+}
+
+.dark .btn-volver-secundario:focus,
+.dark .btn-tema-secundario:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #64b5f6; /* si quieres mantener un enfoque accesible */
+}

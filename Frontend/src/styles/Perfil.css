@@ -1,0 +1,99 @@
+/* src/styles/Perfil.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #002D62;
+}
+
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-container h2 {
+  font-size: 28px;
+  color: #004b8d;
+  margin-bottom: 10px;
+}
+
+.perfil-container p {
+  font-size: 18px;
+  color: #002D62;
+  margin: 6px 0;
+}
+
+.btn-iniciar {
+  background-color: #4D4D4D;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-iniciar:hover {
+  background-color: #333;
+}
+
+.config-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.config-buttons button {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.config-buttons button:hover {
+  background-color: #135ba1;
+}
+
+@media (max-width: 600px) {
+  .perfil-container {
+    padding: 20px 16px;
+    margin: 20px 10px;
+  }
+
+  .perfil-container h2 {
+    font-size: 22px;
+  }
+
+  .perfil-container p {
+    font-size: 16px;
+  }
+
+  .btn-iniciar {
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+
+  .config-buttons button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}

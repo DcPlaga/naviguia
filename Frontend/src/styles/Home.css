@@ -1,0 +1,167 @@
+/* src/styles/Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #002D62;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 12px 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.app-title {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #004b8d;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background-color: #4D4D4D;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #333;
+}
+
+.nav-button.login {
+  margin-left: 8px;
+}
+
+.home-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.home-content h2 {
+  font-size: 32px;
+  color: #002D62;
+  margin-bottom: 10px;
+}
+
+.home-content h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #002D62;
+}
+
+.welcome-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* ✅ Responsividad sin romper estilos actuales */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .navbar-right {
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .nav-button {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .home-content {
+    padding: 5px 16px;
+  }
+
+  .home-content h2 {
+    font-size: 26px;
+  }
+
+  .home-content h3 {
+    font-size: 20px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .welcome-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .welcome-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content h2 {
+    font-size: 22px;
+  }
+
+  .home-content h3 {
+    font-size: 18px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+  }
+
+  .nav-button {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
