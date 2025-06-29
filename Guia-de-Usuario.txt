@@ -1,0 +1,68 @@
+1. 🏠 Inicio
+Cuando ingresas a la app web de NaviGuía, verás opciones como:
+
+Iniciar sesión
+
+Registrarse como:
+
+Persona con discapacidad visual
+
+Acompañante voluntario
+
+Conductor habilitado
+
+También verás controles para modo oscuro y un botón para volver al inicio desde cualquier vista.
+
+2. 👥 Registro
+Selecciona el tipo de usuario y completa el formulario correspondiente:
+
+a. Registro de personas con discapacidad visual
+Campos requeridos: nombre, apellido, correo, contraseña.
+
+Validaciones: contraseñas deben coincidir, correo debe estar disponible.
+
+Selección de discapacidad y necesidades.
+
+b. Registro de acompañantes
+Campos: nombre, correo, zona, experiencia, horarios disponibles.
+
+Validaciones: sin símbolos en el nombre, contraseña doble.
+
+Tras registrarte, se te redirige automáticamente al login.
+
+c. Registro de conductores
+Incluye carga de archivos (licencia), revisión técnica, zona y disponibilidad.
+
+Se valida que el archivo haya sido adjuntado y que la fecha esté en rango.
+
+3. 🔐 Inicio de sesión
+En el formulario:
+
+Introduce tu correo electrónico y contraseña.
+
+Si dejas campos vacíos o el formato no es válido, se mostrará un mensaje.
+
+Tras iniciar sesión:
+
+Serás redirigido a tu vista principal dependiendo de tu rol.
+
+Desde allí podrás ver servicios, realizar solicitudes o gestionar tu perfil.
+
+4. 🌓 Modo oscuro
+Puedes activar el modo oscuro desde cualquier página usando el botón correspondiente. Esto cambia automáticamente la apariencia para una lectura más cómoda.
+
+5. 🧑‍🦯 Accesibilidad
+La aplicación está diseñada con:
+
+Navegación por teclado
+
+Mensajes accesibles con aria-live
+
+Estilo visual adaptado a lectores de pantalla
+
+6. 🆘 ¿Problemas comunes?
+Si el formulario no envía, revisa que todos los campos obligatorios estén llenos.
+
+Si ves un mensaje como “correo ya registrado”, intenta con otro.
+
+Si el sistema no responde tras registrar, recarga la página o revisa tu conexión.
