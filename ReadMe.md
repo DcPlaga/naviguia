@@ -7,6 +7,7 @@
 ## 🚀 Tecnologías
 
 - React.js + React Router DOM
+- Base de Datos NoSql (Mongobd)
 - Estilos con modo claro/oscuro (`light.css` y `dark.css`)
 - Mapas: Leaflet + Mapbox GL
 - Validaciones personalizadas (`utils/validaciones.js`)
